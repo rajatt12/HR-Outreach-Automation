@@ -4,8 +4,8 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 
-FROM_EMAIL = "rajatveer1234@gmail.com"
-APP_PASSWORD = "jpkj idxb hqls jujr"
+FROM_EMAIL = ""
+APP_PASSWORD = ""
 
 RESUME_PATH = "G:\\30 Days ML Projects\\HR-Outreach-Automation\\attachments\\CVNew.pdf"
 
@@ -45,4 +45,5 @@ def send_email(to_email, name, company):
         return "SUCCESS"
 
     except Exception as e:
+
         return str(e)
