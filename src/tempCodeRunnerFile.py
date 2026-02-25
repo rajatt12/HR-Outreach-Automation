@@ -1,0 +1,1 @@
+df = df.sample(n=10, random_state=42).reset_index(drop=True)   
